@@ -1,15 +1,15 @@
-                                  # kanimozhi
+                                   kanimozhi
 
                          ****YOUTUBE DATA HARVESTING AND WAREHOUSING****
 
-                            **Introduction:**
+** Introduction:**
 
 YouTube, the online video-sharing platform, has revolutionized the way we consume and interact with media. Launched in 2005, it has grown into a global phenomenon, serving as a hub for entertainment, education, and community engagement. With its vast user base and diverse content library, YouTube has become a powerful tool for individuals, creators, and businesses to share their stories, express themselves, and connect with audiences worldwide.
 
 This project extracts the particular youtube channel data by using the youtube channel id, processes the data, and stores it in the MYSQL database. It has analyse the data and give the results depending on the customer questions.
 
 ![Intro GUI]( kanimozhi/Homepage.png at main · kanis11/kanimozhi (github.com))
-**
+
 **DEVELOPER GUIDE****
 
 1. Tools Install
@@ -69,8 +69,7 @@ from PIL import Image
 from datetime import datetime,timedelta
 
 import json
-**
-4. Extract data**
+**4. Extract data**
 
 * Extract the particular youtube channel data by using the youtube channel id, with the help of the youtube API developer console.
 
@@ -95,8 +94,8 @@ Filter and process the collected data from the tables depending on the given req
 c) Visualization:
 
 Finally, create a Dashboard by using Streamlit and give dropdown options on the Dashboard to the user and select a question from that menu to analyse the data and show the output in Dataframe Table and Bar chart.
-**
-USER GUIDE**
+
+**USER GUIDE**
 
 **Data collection zone:**
 
