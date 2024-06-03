@@ -21,7 +21,7 @@ import json
 
 #This build connects youtube data and api key as one parameter
 def Api_connect():
-    api_key = "AIzaSyAw_O0FoYWA1FXqko0ZyAhFf1cPL7S2Y4I"
+    api_key = "***************"
     api_service_name = "youtube"
     api_version = "v3"
 
@@ -31,7 +31,7 @@ def Api_connect():
 utube_call = Api_connect()
 
 ## ====================================================   /     SQL connection    /   ================================================= #
-mydb=mysql.connector.connect(host="127.0.0.1",user="root",password="kanis0111",database="youtube")
+mydb=mysql.connector.connect(host="127.0.0.1",user="root",password="k****",database="youtube")
 cursor=mydb.cursor()
 
 ## ====================================================   /     Get Channel Information     /   ================================================= #
